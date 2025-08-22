@@ -1,0 +1,41 @@
+# CODEOWNERS file for reporting-module-561
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-mobile @Armor-test/team-governance @Armor-test/squad-search
+
+# Directory ownership
+/extensions/ @Armor-test/grp-search @Armor-test/team-frontend @Armor-test/squad-database
+/build/ @Armor-test/grp-storage @Armor-test/unit-governance
+/dist/ @Armor-test/unit-governance @Armor-test/dept-ui
+/security/ @Armor-test/squad-frontend @Armor-test/dept-test @Armor-test/unit-cloud
+/src/ @Armor-test/grp-payments @Armor-test/unit-devops @Armor-test/squad-performance
+/data/ @Armor-test/dept-release @Armor-test/dept-billing
+/docs/ @Armor-test/squad-apps @Armor-test/dept-data
+/helpers/ @Armor-test/team-security @Armor-test/team-logging
+/lib/ @Armor-test/team-governance @Armor-test/dept-api
+/views/ @Armor-test/dept-reliability @Armor-test/squad-cache
+/models/ @Armor-test/unit-devops @Armor-test/dept-test
+/tests/ @Armor-test/dept-notifications @Armor-test/grp-ui @Armor-test/team-governance
+/tools/ @Armor-test/squad-mobile @Armor-test/grp-storage @Armor-test/team-frontend
+
+# File type ownership
+*.cs @Armor-test/team-logging @Armor-test/dept-data @Armor-test/unit-test
+*.md @Armor-test/squad-search @Armor-test/grp-payments
+*.rs @Armor-test/squad-database @Armor-test/team-core
+*.cpp @Armor-test/team-notifications @Armor-test/dept-ui @Armor-test/dept-automation
+*.proto @Armor-test/squad-tooling @Armor-test/team-research @Armor-test/dept-data
+*.tsx @Armor-test/squad-performance @Armor-test/grp-payments
+*.yml @Armor-test/squad-search @Armor-test/team-frontend @Armor-test/squad-database
+*.lock @Armor-test/team-frontend @Armor-test/team-notifications
+*.ini @Armor-test/team-notifications @Armor-test/squad-qa @Armor-test/squad-cloud
+*.json @Armor-test/team-security @Armor-test/dept-ui
+*.go @Armor-test/dept-api @Armor-test/squad-database @Armor-test/squad-ux
+*.graphql @Armor-test/team-frontend @Armor-test/squad-cloud @Armor-test/dept-reliability
+*.sql @Armor-test/squad-cloud @Armor-test/grp-integration @Armor-test/dept-billing
+*.html @Armor-test/grp-search @Armor-test/team-security @Armor-test/squad-search
+*.java @Armor-test/squad-reporting @Armor-test/dept-test @Armor-test/squad-ux
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
